@@ -34,11 +34,13 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-2.2;netcore-2.1;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-      <AttributeName>System.Runtime.CompilerServices.IsByRefLike</AttributeName>
+    <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsByRefLike]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsByRefLike&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netcore-2.2;netcore-2.1;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-      <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+    <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -160,8 +162,9 @@ If `array` is `null`, this constructor returns a `null` `Span<T>`.
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.2;netcore-2.1;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -374,11 +377,13 @@ This method copies all of `source` to `destination` even if `source` and `destin
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("Equals() on Span will always throw an exception. Use == instead.")</AttributeName>
+        <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("Equals() on Span will always throw an exception. Use == instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Equals() on Span will always throw an exception. Use == instead.")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -455,11 +460,11 @@ To compare two <xref:System.Span%601> objects for equality, use the <xref:System
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Memory</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Memory</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Span&lt;T&gt;+Enumerator</ReturnType>
@@ -499,11 +504,13 @@ Instead of calling the <xref:System.Span%601.GetEnumerator%2A> method directly, 
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("GetHashCode() on Span will always throw an exception.")</AttributeName>
+        <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("GetHashCode() on Span will always throw an exception.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("GetHashCode() on Span will always throw an exception.")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -539,8 +546,9 @@ Instead of calling the <xref:System.Span%601.GetEnumerator%2A> method directly, 
         <AssemblyName>System.Memory</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue RefType="Ref">
@@ -981,11 +989,11 @@ This method performs a heap allocation and therefore should be avoided if possib
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Memory</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Memory</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -142,7 +142,8 @@ The following code example demonstrates sending an email message by using the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -216,7 +217,8 @@ The following code example demonstrates sending an email message by using the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -287,7 +289,8 @@ The following code example demonstrates sending an email message by using the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("We don't do anything with displayNameEncoding")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("We don't do anything with displayNameEncoding")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("We don't do anything with displayNameEncoding")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -421,7 +424,8 @@ The following code example demonstrates sending an email message by using the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -568,7 +572,8 @@ The following code example demonstrates sending an email message by using the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -672,8 +677,9 @@ The following code example demonstrates sending an email message by using the <x
         <Parameter Name="address" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
         <Parameter Name="result" Type="System.Net.Mail.MailAddress" RefType="out" Index="1" FrameworkAlternate="net-5.0">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -709,8 +715,9 @@ The following code example demonstrates sending an email message by using the <x
         <Parameter Name="displayName" Type="System.String" Index="1" FrameworkAlternate="net-5.0" />
         <Parameter Name="result" Type="System.Net.Mail.MailAddress" RefType="out" Index="2" FrameworkAlternate="net-5.0">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -748,8 +755,9 @@ The following code example demonstrates sending an email message by using the <x
         <Parameter Name="displayNameEncoding" Type="System.Text.Encoding" Index="2" FrameworkAlternate="net-5.0" />
         <Parameter Name="result" Type="System.Net.Mail.MailAddress" RefType="out" Index="3" FrameworkAlternate="net-5.0">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -792,7 +800,8 @@ The following code example demonstrates sending an email message by using the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

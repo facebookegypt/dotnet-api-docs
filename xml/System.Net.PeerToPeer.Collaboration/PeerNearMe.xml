@@ -23,7 +23,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Serializable</AttributeName>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -179,7 +180,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -370,7 +372,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -403,7 +406,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -453,7 +457,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -486,7 +491,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -536,7 +542,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -569,7 +576,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -679,10 +687,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>add: System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[add: System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;add: System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>remove: System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[remove: System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;remove: System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -708,7 +718,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -747,7 +758,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -818,7 +830,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

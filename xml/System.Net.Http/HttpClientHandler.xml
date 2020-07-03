@@ -222,7 +222,8 @@ After NuGet package v4.3.2, the default value of <xref:System.Net.DecompressionM
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -293,7 +294,8 @@ After NuGet package v4.3.2, the default value of <xref:System.Net.DecompressionM
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -448,7 +450,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -569,7 +572,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -645,7 +649,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -726,7 +731,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -763,7 +769,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>set: System.Security.SecuritySafeCritical</AttributeName>
+          <AttributeName Language="C#">[set: System.Security.SecuritySafeCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Security.SecuritySafeCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -819,7 +826,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerStepThrough]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerStepThrough&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -870,7 +878,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -907,7 +916,8 @@ handler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousA
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netstandard-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

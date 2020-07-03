@@ -119,11 +119,13 @@ The following code example demonstrates the server side of a client-server conne
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -174,7 +176,8 @@ The following code example demonstrates the server side of a client-server conne
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -249,7 +252,8 @@ The following example demonstrates calling this constructor. This code example i
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -307,11 +311,13 @@ The following example demonstrates calling this constructor. This code example i
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -374,11 +380,13 @@ The following example demonstrates calling this constructor. This code example i
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -451,11 +459,13 @@ The following example demonstrates calling this constructor. This code example i
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -525,7 +535,8 @@ The following example demonstrates calling this constructor. This code example i
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -960,7 +971,8 @@ The following example demonstrates calling this constructor. This code example i
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1017,7 +1029,8 @@ The following example demonstrates calling this constructor. This code example i
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1082,11 +1095,13 @@ The following example demonstrates calling this constructor. This code example i
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1157,7 +1172,8 @@ The following example demonstrates calling this constructor. This code example i
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1513,7 +1529,8 @@ The following example demonstrates calling this constructor. This code example i
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1588,11 +1605,13 @@ The following example demonstrates calling this method to begin an asynchronous 
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1666,11 +1685,13 @@ The following example demonstrates calling this method to begin an asynchronous 
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1748,11 +1769,13 @@ The following example demonstrates calling this method to begin an asynchronous 
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1833,7 +1856,8 @@ The following example demonstrates calling this method to begin an asynchronous 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1936,7 +1960,8 @@ The following example demonstrates calling this method to begin an asynchronous 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1999,7 +2024,8 @@ The following example demonstrates calling this method to begin an asynchronous 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2069,11 +2095,13 @@ The following example demonstrates calling this method to begin an asynchronous 
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2151,7 +2179,8 @@ The following example demonstrates calling this method to begin an asynchronous 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2237,7 +2266,8 @@ The following example demonstrates calling this method to begin an asynchronous 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2332,7 +2362,8 @@ The following example demonstrates calling this method to begin an asynchronous 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2539,7 +2570,8 @@ The following method is called when the operation completes.
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2647,7 +2679,8 @@ The following method is called when the operation completes.
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2695,9 +2728,6 @@ The following method is called when the operation completes.
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -2748,7 +2778,8 @@ The following method is called when the operation completes.
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2809,7 +2840,8 @@ The following method is called when the operation completes.
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2872,7 +2904,8 @@ The following method is called when the operation completes.
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2944,7 +2977,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3017,7 +3051,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3062,9 +3097,6 @@ Authentication has not occurred.</exception>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -3115,7 +3147,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3172,7 +3205,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3229,7 +3263,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3287,7 +3322,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3346,7 +3382,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3405,7 +3442,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3562,7 +3600,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3686,7 +3725,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3743,7 +3783,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3798,7 +3839,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3842,7 +3884,8 @@ Authentication has not occurred.</exception>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -227,7 +227,7 @@
                 Values are not required to specify a version or MinimumVersion.
             </summary>
         <returns>
-          <c>true</c> if the SDK name was successfully parsed, otherwise <c>false</c>.</returns>
+          <code>true</code> if the SDK name was successfully parsed, otherwise <code>false</code>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

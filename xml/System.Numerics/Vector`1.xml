@@ -379,8 +379,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -414,8 +415,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -458,8 +460,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -511,8 +514,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -607,8 +611,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -659,8 +664,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -711,8 +717,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -752,8 +759,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>get: System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1356,8 +1364,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1453,8 +1462,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1504,8 +1514,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1555,8 +1566,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1925,8 +1937,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1973,8 +1986,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2027,8 +2041,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2071,8 +2086,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2107,8 +2123,9 @@ The type `T` can be any of the following numeric types:
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0">
-          <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -45,7 +45,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
       <MemberSignature Language="C#" Value="public Utf8JsonWriter (System.Buffers.IBufferWriter&lt;byte&gt; bufferWriter, System.Text.Json.JsonWriterOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Buffers.IBufferWriter`1&lt;unsigned int8&gt; bufferWriter, valuetype System.Text.Json.JsonWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.#ctor(System.Buffers.IBufferWriter{System.Byte},System.Text.Json.JsonWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (bufferWriter As IBufferWriter(Of Byte), Optional options As JsonWriterOptions = null)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (bufferWriter As IBufferWriter(Of Byte), Optional options As JsonWriterOptions = Nothing)" />
       <MemberSignature Language="F#" Value="new System.Text.Json.Utf8JsonWriter : System.Buffers.IBufferWriter&lt;byte&gt; * System.Text.Json.JsonWriterOptions -&gt; System.Text.Json.Utf8JsonWriter" Usage="new System.Text.Json.Utf8JsonWriter (bufferWriter, options)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -71,7 +71,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
       <MemberSignature Language="C#" Value="public Utf8JsonWriter (System.IO.Stream utf8Json, System.Text.Json.JsonWriterOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream utf8Json, valuetype System.Text.Json.JsonWriterOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.#ctor(System.IO.Stream,System.Text.Json.JsonWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (utf8Json As Stream, Optional options As JsonWriterOptions = null)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (utf8Json As Stream, Optional options As JsonWriterOptions = Nothing)" />
       <MemberSignature Language="F#" Value="new System.Text.Json.Utf8JsonWriter : System.IO.Stream * System.Text.Json.JsonWriterOptions -&gt; System.Text.Json.Utf8JsonWriter" Usage="new System.Text.Json.Utf8JsonWriter (utf8Json, options)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -295,7 +295,7 @@ In the case of <xref:System.IO.Stream>, this writes the data to the stream and f
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task FlushAsync (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task FlushAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.FlushAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Function FlushAsync (Optional cancellationToken As CancellationToken = null) As Task" />
+      <MemberSignature Language="VB.NET" Value="Public Function FlushAsync (Optional cancellationToken As CancellationToken = Nothing) As Task" />
       <MemberSignature Language="F#" Value="member this.FlushAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="utf8JsonWriter.FlushAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1387,7 +1387,8 @@ The property name is escaped before writing.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1432,7 +1433,8 @@ The property name is escaped before writing.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1677,7 +1679,8 @@ The property name is escaped before writing.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1722,7 +1725,8 @@ The property name is escaped before writing.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1972,7 +1976,8 @@ The property name is escaped before writing.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2018,7 +2023,8 @@ The property name is escaped before writing.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2259,7 +2265,8 @@ The property name should already be escaped when the instance of <xref:System.Te
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2303,7 +2310,8 @@ The property name should already be escaped when the instance of <xref:System.Te
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2522,7 +2530,8 @@ This method writes the <xref:System.Single> value using the default <xref:System
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2562,7 +2571,8 @@ This method writes the <xref:System.UInt32> value using the default <xref:System
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

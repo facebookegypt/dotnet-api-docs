@@ -35,11 +35,13 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("IsEmpty = {IsEmpty}; Top = {_head}")</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("IsEmpty = {IsEmpty}; Top = {_head}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("IsEmpty = {IsEmpty}; Top = {_head}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableStackDebuggerProxy`1))</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableStackDebuggerProxy`1))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableStackDebuggerProxy`1))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -221,7 +223,8 @@
         <ReturnType>T</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
-            <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>

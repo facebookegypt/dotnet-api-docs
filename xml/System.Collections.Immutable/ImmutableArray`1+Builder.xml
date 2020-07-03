@@ -44,11 +44,13 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("Count = {Count}")</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("Count = {Count}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Count = {Count}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableArrayBuilderDebuggerProxy`1))</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableArrayBuilderDebuggerProxy`1))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableArrayBuilderDebuggerProxy`1))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -211,7 +213,8 @@
         <Parameter Name="items" Type="T[]">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -597,11 +600,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableArray`1/Builder/&lt;GetEnumerator&gt;d__48))</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableArray`1/Builder/&lt;GetEnumerator&gt;d__1))</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableArray`1/Builder/&lt;GetEnumerator&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableArray`1/Builder/&lt;GetEnumerator&gt;d__1))&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableArray`1/Builder/&lt;GetEnumerator&gt;d__48))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableArray`1/Builder/&lt;GetEnumerator&gt;d__48))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -848,7 +853,8 @@
         <ReturnType>T</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
-            <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>

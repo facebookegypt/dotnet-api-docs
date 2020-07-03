@@ -22,13 +22,16 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName>System.ComponentModel.DefaultProperty("Content")</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.DefaultProperty("Content")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultProperty("Content")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.Localizability(System.Windows.LocalizationCategory.None, Readability=System.Windows.Readability.Unreadable)</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Localizability(System.Windows.LocalizationCategory.None, Readability=System.Windows.Readability.Unreadable)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Localizability(System.Windows.LocalizationCategory.None, Readability=System.Windows.Readability.Unreadable)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.Markup.ContentProperty("Content")</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Markup.ContentProperty("Content")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.ContentProperty("Content")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -93,7 +96,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters />
@@ -150,7 +154,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -181,7 +186,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.Bindable(true)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Bindable(true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Bindable(true)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -290,7 +296,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.Bindable(true)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Bindable(true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Bindable(true)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -354,7 +361,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.Bindable(true)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Bindable(true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Bindable(true)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -446,10 +454,12 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.Bindable(true)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Bindable(true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Bindable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -542,10 +552,12 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.ComponentModel.ReadOnly(true)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.ReadOnly(true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.ReadOnly(true)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -754,7 +766,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -794,7 +807,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -828,7 +842,8 @@ Four buttons with different types of content
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

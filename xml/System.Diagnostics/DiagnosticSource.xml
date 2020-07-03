@@ -92,7 +92,7 @@ If there is expensive setup for the notification, you can call IsEnabled before 
       <MemberSignature Language="C#" Value="public virtual bool IsEnabled (string name, object arg1, object arg2 = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsEnabled(string name, object arg1, object arg2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.DiagnosticSource.IsEnabled(System.String,System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsEnabled (name As String, arg1 As Object, Optional arg2 As Object = null) As Boolean" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsEnabled (name As String, arg1 As Object, Optional arg2 As Object = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member IsEnabled : string * obj * obj -&gt; bool&#xA;override this.IsEnabled : string * obj * obj -&gt; bool" Usage="diagnosticSource.IsEnabled (name, arg1, arg2)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

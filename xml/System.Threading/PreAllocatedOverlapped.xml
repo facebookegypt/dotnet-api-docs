@@ -36,7 +36,8 @@
   </Interfaces>
   <Attributes>
     <Attribute FrameworkAlternate="netstandard-2.0">
-      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -72,11 +73,13 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;netframework-4.8;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
+          <AttributeName Language="C#">[System.Security.SecuritySafeCritical]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Security.SecuritySafeCritical&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>

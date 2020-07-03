@@ -53,11 +53,13 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.ComponentModel.TypeConverter(typeof(System.UriTypeConverter))</AttributeName>
-    </Attribute>
     <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.UriTypeConverter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.UriTypeConverter))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -496,14 +498,13 @@ Uri baseUri = new Uri(@"\\host\share\some\directory\name\");
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The constructor has been deprecated. Please use new Uri(string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -970,14 +971,13 @@ The URI formed by combining <paramref name="baseUri" /> and <paramref name="rela
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The constructor has been deprecated. Please new Uri(Uri, string). The dontEscape parameter is deprecated and is always false. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -1271,14 +1271,13 @@ The URI formed by combining <paramref name="baseUri" /> and <paramref name="rela
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1449,14 +1448,13 @@ The URI formed by combining <paramref name="baseUri" /> and <paramref name="rela
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1747,14 +1745,13 @@ If you used an escaped string to construct this instance (for example, `"http://
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1856,14 +1853,13 @@ If you used an escaped string to construct this instance (for example, `"http://
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. Please use GetComponents() or static EscapeUriString() to escape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2648,14 +2644,13 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2836,14 +2831,13 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3116,14 +3110,13 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3419,14 +3412,13 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. Please use MakeRelativeUri(Uri uri). https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3758,14 +3750,13 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. It is not used by the system. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4197,7 +4188,8 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4481,14 +4473,13 @@ The length of <paramref name="stringToEscape" /> exceeds 32766 characters.</exce
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netstandard-2.1">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+          <AttributeName Language="C#">[System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The method has been deprecated. Please use GetComponents() or static UnescapeDataString() to unescape a Uri component or a string. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

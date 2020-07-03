@@ -16,14 +16,22 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Serializable</AttributeName>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
             Arguments for critical message events. These always have High importance.
             </summary>
-    <remarks>To be added.</remarks>
+    <remarks>
+            WARNING: marking a type [Serializable] without implementing
+            ISerializable imposes a serialization contract -- it is a
+            promise to never change the type's fields i.e. the type is
+            immutable; adding new fields in the next version of the type
+            without following certain special FX guidelines, can break both
+            forward and backward compatibility
+            </remarks>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -169,7 +177,8 @@
         <Parameter Name="messageArgs" Type="System.Object[]">
           <Attributes>
             <Attribute FrameworkAlternate="msbuild-15">
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>

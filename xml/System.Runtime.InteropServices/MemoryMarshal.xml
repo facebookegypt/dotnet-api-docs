@@ -203,7 +203,8 @@ This method must be used with extreme caution. <xref:System.ReadOnlyMemory%601> 
         <ReturnType>T</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
-            <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>
@@ -866,7 +867,8 @@ This method allows a read-only memory buffer to be used in existing APIs that re
         <Parameter Name="manager" Type="TManager" RefType="out">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -918,7 +920,8 @@ This method allows a read-only memory buffer to be used in existing APIs that re
         <Parameter Name="manager" Type="TManager" RefType="out">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -966,7 +969,8 @@ This method allows a read-only memory buffer to be used in existing APIs that re
         <Parameter Name="text" Type="System.String" RefType="out">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
-              <AttributeName>System.Diagnostics.CodeAnalysis.NotNullWhen(true)</AttributeName>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>

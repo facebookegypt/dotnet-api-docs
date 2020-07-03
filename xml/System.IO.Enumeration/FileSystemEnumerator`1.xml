@@ -45,7 +45,7 @@
       <MemberSignature Language="C#" Value="public FileSystemEnumerator (string directory, System.IO.EnumerationOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string directory, class System.IO.EnumerationOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Enumeration.FileSystemEnumerator`1.#ctor(System.String,System.IO.EnumerationOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (directory As String, Optional options As EnumerationOptions = null)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (directory As String, Optional options As EnumerationOptions = Nothing)" />
       <MemberSignature Language="F#" Value="new System.IO.Enumeration.FileSystemEnumerator&lt;'Result&gt; : string * System.IO.EnumerationOptions -&gt; System.IO.Enumeration.FileSystemEnumerator&lt;'Result&gt;" Usage="new System.IO.Enumeration.FileSystemEnumerator&lt;'Result&gt; (directory, options)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>

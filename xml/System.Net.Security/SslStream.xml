@@ -151,7 +151,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -213,7 +214,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -288,7 +290,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -375,7 +378,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -462,7 +466,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoLimitation("encryptionPolicy is ignored")</AttributeName>
+          <AttributeName Language="C#">[System.MonoLimitation("encryptionPolicy is ignored")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoLimitation("encryptionPolicy is ignored")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
@@ -765,7 +770,7 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsClientAsync (System.Net.Security.SslClientAuthenticationOptions sslClientAuthenticationOptions, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task AuthenticateAsClientAsync(class System.Net.Security.SslClientAuthenticationOptions sslClientAuthenticationOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.AuthenticateAsClientAsync(System.Net.Security.SslClientAuthenticationOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Function AuthenticateAsClientAsync (sslClientAuthenticationOptions As SslClientAuthenticationOptions, Optional cancellationToken As CancellationToken = null) As Task" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="Public Function AuthenticateAsClientAsync (sslClientAuthenticationOptions As SslClientAuthenticationOptions, Optional cancellationToken As CancellationToken = Nothing) As Task" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.AuthenticateAsClientAsync : System.Net.Security.SslClientAuthenticationOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="sslStream.AuthenticateAsClientAsync (sslClientAuthenticationOptions, cancellationToken)" />
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsClientAsync (System.Net.Security.SslClientAuthenticationOptions sslClientAuthenticationOptions, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberSignature Language="VB.NET" Value="Public Function AuthenticateAsClientAsync (sslClientAuthenticationOptions As SslClientAuthenticationOptions, cancellationToken As CancellationToken) As Task" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
@@ -780,9 +785,6 @@
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -995,7 +997,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1248,7 +1251,7 @@
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsServerAsync (System.Net.Security.SslServerAuthenticationOptions sslServerAuthenticationOptions, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task AuthenticateAsServerAsync(class System.Net.Security.SslServerAuthenticationOptions sslServerAuthenticationOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.AuthenticateAsServerAsync(System.Net.Security.SslServerAuthenticationOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Function AuthenticateAsServerAsync (sslServerAuthenticationOptions As SslServerAuthenticationOptions, Optional cancellationToken As CancellationToken = null) As Task" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="Public Function AuthenticateAsServerAsync (sslServerAuthenticationOptions As SslServerAuthenticationOptions, Optional cancellationToken As CancellationToken = Nothing) As Task" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.AuthenticateAsServerAsync : System.Net.Security.SslServerAuthenticationOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="sslStream.AuthenticateAsServerAsync (sslServerAuthenticationOptions, cancellationToken)" />
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsServerAsync (System.Net.Security.SslServerAuthenticationOptions sslServerAuthenticationOptions, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberSignature Language="VB.NET" Value="Public Function AuthenticateAsServerAsync (sslServerAuthenticationOptions As SslServerAuthenticationOptions, cancellationToken As CancellationToken) As Task" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
@@ -1263,9 +1266,6 @@
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1732,7 +1732,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2571,9 +2572,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
@@ -2911,9 +2909,6 @@ Authentication has not occurred.</exception>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -3535,9 +3530,6 @@ Authentication has not occurred.</exception>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.Security.SslApplicationProtocol</ReturnType>
       </ReturnValue>
@@ -3564,12 +3556,10 @@ Authentication has not occurred.</exception>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0">
-          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+          <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3722,7 +3712,7 @@ This property gets the cipher suite that is going to be used in the communicatio
       <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask&lt;int&gt; ReadAsync (Memory&lt;byte&gt; buffer, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;int32&gt; ReadAsync(valuetype System.Memory`1&lt;unsigned int8&gt; buffer, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function ReadAsync (buffer As Memory(Of Byte), Optional cancellationToken As CancellationToken = null) As ValueTask(Of Integer)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ReadAsync (buffer As Memory(Of Byte), Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of Integer)" />
       <MemberSignature Language="F#" Value="override this.ReadAsync : Memory&lt;byte&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;int&gt;" Usage="sslStream.ReadAsync (buffer, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -3734,9 +3724,6 @@ This property gets the cipher suite that is going to be used in the communicatio
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Int32&gt;</ReturnType>
@@ -3785,9 +3772,6 @@ This property gets the cipher suite that is going to be used in the communicatio
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -3852,9 +3836,6 @@ This property gets the cipher suite that is going to be used in the communicatio
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -4351,7 +4332,7 @@ This property gets the cipher suite that is going to be used in the communicatio
       <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask WriteAsync (ReadOnlyMemory&lt;byte&gt; buffer, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask WriteAsync(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; buffer, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function WriteAsync (buffer As ReadOnlyMemory(Of Byte), Optional cancellationToken As CancellationToken = null) As ValueTask" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function WriteAsync (buffer As ReadOnlyMemory(Of Byte), Optional cancellationToken As CancellationToken = Nothing) As ValueTask" />
       <MemberSignature Language="F#" Value="override this.WriteAsync : ReadOnlyMemory&lt;byte&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="sslStream.WriteAsync (buffer, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -4363,9 +4344,6 @@ This property gets the cipher suite that is going to be used in the communicatio
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -4412,9 +4390,6 @@ The <xref:System.Net.Security.SslStream> class does not support multiple simulta
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

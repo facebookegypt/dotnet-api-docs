@@ -8568,7 +8568,8 @@ If `count` is not a positive number, this method returns an empty queryable sequ
         <ReturnType>System.Linq.IQueryable&lt;System.ValueTuple&lt;TFirst,TSecond&gt;&gt;</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
-            <AttributeName>System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "First", "Second" })</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "First", "Second" })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "First", "Second" })&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>

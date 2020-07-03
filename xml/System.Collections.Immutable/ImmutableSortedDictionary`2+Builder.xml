@@ -54,11 +54,13 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("Count = {Count}")</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("Count = {Count}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Count = {Count}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedDictionaryBuilderDebuggerProxy`2))</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedDictionaryBuilderDebuggerProxy`2))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedDictionaryBuilderDebuggerProxy`2))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -868,8 +870,9 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -913,8 +916,9 @@ This member is an explicit interface member implementation. It can be used only 
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1502,7 +1506,8 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>TValue</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
-            <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>

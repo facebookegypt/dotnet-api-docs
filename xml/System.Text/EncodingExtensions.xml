@@ -38,7 +38,8 @@
         <Parameter Name="bytes" Type="System.Buffers.ReadOnlySequence&lt;System.Byte&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -112,7 +113,8 @@
         <Parameter Name="chars" Type="System.Buffers.ReadOnlySequence&lt;System.Char&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -186,7 +188,8 @@
         <Parameter Name="chars" Type="System.Buffers.ReadOnlySequence&lt;System.Char&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -219,7 +222,8 @@
         <Parameter Name="chars" Type="System.Buffers.ReadOnlySequence&lt;System.Char&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -254,7 +258,8 @@
         <Parameter Name="chars" Type="System.Buffers.ReadOnlySequence&lt;System.Char&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -318,7 +323,8 @@
         <Parameter Name="bytes" Type="System.Buffers.ReadOnlySequence&lt;System.Byte&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -353,7 +359,8 @@
         <Parameter Name="bytes" Type="System.Buffers.ReadOnlySequence&lt;System.Byte&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -417,7 +424,8 @@
         <Parameter Name="bytes" Type="System.Buffers.ReadOnlySequence&lt;System.Byte&gt;" RefType="ref">
           <Attributes>
             <Attribute>
-              <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>

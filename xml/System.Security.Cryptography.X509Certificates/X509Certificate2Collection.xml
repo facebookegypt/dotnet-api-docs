@@ -93,7 +93,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters />
@@ -351,7 +352,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("Method isn't transactional (like documented)")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("Method isn't transactional (like documented)")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("Method isn't transactional (like documented)")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -405,7 +407,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("Method isn't transactional (like documented)")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("Method isn't transactional (like documented)")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("Method isn't transactional (like documented)")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -522,11 +525,13 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("only support X509ContentType.Cert")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO("only support X509ContentType.Cert")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("only support X509ContentType.Cert")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -579,7 +584,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("only support X509ContentType.Cert")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("only support X509ContentType.Cert")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("only support X509ContentType.Cert")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -645,7 +651,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("Does not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("Does not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("Does not support X509FindType.FindByTemplateName, FindByApplicationPolicy and FindByCertificatePolicy")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -771,11 +778,13 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("same limitations as X509Certificate2.Import")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO("same limitations as X509Certificate2.Import")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("same limitations as X509Certificate2.Import")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -838,11 +847,13 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("same limitations as X509Certificate2.Import")</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.MonoTODO("same limitations as X509Certificate2.Import")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("same limitations as X509Certificate2.Import")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -906,7 +917,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("same limitations as X509Certificate2.Import")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("same limitations as X509Certificate2.Import")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("same limitations as X509Certificate2.Import")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -974,7 +986,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("same limitations as X509Certificate2.Import")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("same limitations as X509Certificate2.Import")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("same limitations as X509Certificate2.Import")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1235,7 +1248,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("Method isn't transactional (like documented)")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("Method isn't transactional (like documented)")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("Method isn't transactional (like documented)")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1289,7 +1303,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO("Method isn't transactional (like documented)")</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO("Method isn't transactional (like documented)")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO("Method isn't transactional (like documented)")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -111,7 +111,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.MonoTODO</AttributeName>
+          <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -151,7 +152,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerStepThrough]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerStepThrough&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -206,7 +208,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerStepThrough]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerStepThrough&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -331,7 +334,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerStepThrough]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerStepThrough&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -503,9 +507,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Net.WebSockets.ValueWebSocketReceiveResult&gt;</ReturnType>
       </ReturnValue>
@@ -607,9 +608,6 @@
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>

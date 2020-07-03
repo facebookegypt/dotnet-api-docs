@@ -15,7 +15,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Serializable</AttributeName>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -48,7 +49,7 @@
       <MemberSignature Language="C#" Value="public PropertyReassignmentEventArgs (string propertyName, string previousValue, string newValue, string location, string message, string helpKeyword = default, string senderName = default, Microsoft.Build.Framework.MessageImportance importance = Microsoft.Build.Framework.MessageImportance.Low);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string propertyName, string previousValue, string newValue, string location, string message, string helpKeyword, string senderName, valuetype Microsoft.Build.Framework.MessageImportance importance) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Build.Framework.PropertyReassignmentEventArgs.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Build.Framework.MessageImportance)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyName As String, previousValue As String, newValue As String, location As String, message As String, Optional helpKeyword As String = null, Optional senderName As String = null, Optional importance As MessageImportance = Microsoft.Build.Framework.MessageImportance.Low)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyName As String, previousValue As String, newValue As String, location As String, message As String, Optional helpKeyword As String = Nothing, Optional senderName As String = Nothing, Optional importance As MessageImportance = Microsoft.Build.Framework.MessageImportance.Low)" />
       <MemberSignature Language="F#" Value="new Microsoft.Build.Framework.PropertyReassignmentEventArgs : string * string * string * string * string * string * string * Microsoft.Build.Framework.MessageImportance -&gt; Microsoft.Build.Framework.PropertyReassignmentEventArgs" Usage="new Microsoft.Build.Framework.PropertyReassignmentEventArgs (propertyName, previousValue, newValue, location, message, helpKeyword, senderName, importance)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -66,14 +67,14 @@
         <Parameter Name="importance" Type="Microsoft.Build.Framework.MessageImportance" />
       </Parameters>
       <Docs>
-        <param name="propertyName">The name of the property whose value was reassigned.</param>
-        <param name="previousValue">The previous value of the reassigned property.</param>
-        <param name="newValue">The new value of the reassigned property.</param>
-        <param name="location">The location of the reassignment.</param>
         <param name="message">To be added.</param>
         <param name="helpKeyword">To be added.</param>
         <param name="senderName">To be added.</param>
         <param name="importance">To be added.</param>
+        <param name="propertyName">The name of the property whose value was reassigned.</param>
+        <param name="previousValue">The previous value of the reassigned property.</param>
+        <param name="newValue">The new value of the reassigned property.</param>
+        <param name="location">The location of the reassignment.</param>
         <summary>
             Creates an instance of the PropertyReassignmentEventArgs class.
             </summary>
